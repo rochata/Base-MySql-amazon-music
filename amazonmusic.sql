@@ -81,3 +81,37 @@ INSERT INTO Songs (title, artist, duration) VALUES
 ('Monsters', 'All Time Low ft. Demi Lovato & blackbear', '157'),
 ('Working', 'Tate McRae x Khalid', '151'),
 ('Pick Up Your Feelings', 'Jazmine Sullivan', '204');
+
+--se agregan datos a la tabla album--
+
+INSERT INTO Albums (title, artist, release_year) VALUES
+  ('After Hours', 'The Weeknd', 2020),
+  ('Folklore', 'Taylor Swift', 2020),
+  ('Fine Line', 'Harry Styles', 2020),
+  ('Future Nostalgia', 'Dua Lipa', 2020),
+  ('Chromatica', 'Lady Gaga', 2020),
+  ('Map of the Soul: 7', 'BTS', 2020),
+  ('Fetch the Bolt Cutters', 'Fiona Apple', 2020),
+  ('Gaslighter', 'The Chicks', 2020),
+  ('Rough and Rowdy Ways', 'Bob Dylan', 2020),
+  ('Women in Music Pt. III', 'HAIM', 2020),
+  ('Rumours', 'Fleetwood Mac', 1977),
+  ('The Dark Side of the Moon', 'Pink Floyd', 1973),
+  ('Thriller', 'Michael Jackson', 1982),
+  ('Nevermind', 'Nirvana', 1991),
+  ('Back in Black', 'AC/DC', 1980),
+  ('The Joshua Tree', 'U2', 1987),
+  ('Abbey Road', 'The Beatles', 1969),
+  ('Hotel California', 'Eagles', 1976),
+  ('Born to Run', 'Bruce Springsteen', 1975),
+  ('Purple Rain', 'Prince', 1984),
+  ('En Vivo Desde Culiacán', 'Los Ángeles Azules', 2016),
+  ('Hasta La Miel Amarga', 'Los Tigres del Norte', 2009),
+  ('Ahora Resulta', 'Voz de Mando', 2011),
+  ('Las Bandas Románticas', 'Banda MS', 2016),
+  ('Puros Trankazos', 'Roberto Tapia', 2013),
+  ('Tu Amor o Tu Desprecio', 'Marco Antonio Solís', 2003),
+  ('Mi Vida Sin Ti', 'Jesus Ojeda y Sus Parientes', 2014),
+  ('Hoy Más Fuerte', 'Gerardo Ortiz', 2015),
+  ('Historias de Mi Tierra', 'Pepe Aguilar', 2001),
+  ('El Aferrado', 'Julión Álvarez', 2015);
