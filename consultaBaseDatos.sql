@@ -1,0 +1,1 @@
+---En esta seccion se van a ingresar las consultas a la base de datos usando el gestor de consultas MySQL -- 
