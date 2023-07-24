@@ -15,3 +15,7 @@ SELECT title FROM Songs WHERE duration <= 150; --selecciona las canciones con du
 SELECT name FROM Artists WHERE country = 'Estados unidos'; --selecciona el nombre de los artistas con pais "Estados unidos"
 
 SELECT name FROM Artists WHERE genre = 'Reggaetón'; --selecciona el nombre de los artistas con genero "Reggaetón"
+
+SELECT * FROM Albums WHERE release_year >= 2015; -- selecciona todo lo que tenga la tabla Albums, donde el año de lanzamiento sea mayor o igual a 2015
+
+SELECT COUNT (*) FROM Albums WHERE release_year >= 2015; -- Muestra la cantidad de albumnes que fueron lanzados en 2015 o años posteriores
